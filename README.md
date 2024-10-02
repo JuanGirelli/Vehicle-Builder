@@ -57,3 +57,55 @@ To start the application, run the following command:
 
 ```bash
 npm start
+
+### Available Commands
+
+- **Create New Vehicle**: Allows the user to create a new car, truck, or motorbike.
+- **Select Existing Vehicle**: Select a previously created vehicle from the list.
+- **Perform Actions**: Execute specific actions for the selected vehicle.
+- **Exit**: Ends the session and exits the application.
+
+## Walkthrough Video
+
+To demonstrate the full functionality of the application, a walkthrough video has been created. The video covers:
+
+- How to invoke the application using `npm start`.
+- How to create a car, truck, and motorbike.
+- Entering details for each vehicle type.
+- Performing actions such as towing (for trucks) and wheelies (for motorbikes).
+
+[Watch the Walkthrough Video](#) <!-- Replace this link with the actual video link -->
+
+## Technologies Used
+
+- **TypeScript**: For building a strongly-typed command-line application.
+- **Node.js**: To run the application.
+- **Inquirer**: For handling command-line prompts and user input.
+
+## Project Structure
+- **`classes`**: Contains the classes for `Car`, `Motorbike`, `Truck`, `Vehicle`, and `Cli`.
+- **`interfaces`**: Includes TypeScript interfaces (`AbleToTow`, `Driveable`) for defining the structure of vehicle behaviors.
+- **`index.ts`**: Entry point for the application.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+    ```bash
+    git checkout -b feature-name
+    ```
+3. Make your changes and commit them:
+    ```bash
+    git commit -m 'Add some feature'
+    ```
+4. Push to the branch:
+    ```bash
+    git push origin feature-name
+    ```
+5. Open a pull request to the main branch.
+
+## License
+
+This project is licensed under the MIT License.
