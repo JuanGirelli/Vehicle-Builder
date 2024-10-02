@@ -57,6 +57,7 @@ To start the application, run the following command:
 
 ```bash
 npm start
+```
 
 ### Available Commands
 
