@@ -75,8 +75,7 @@ To demonstrate the full functionality of the application, a walkthrough video ha
 - Entering details for each vehicle type.
 - Performing actions such as towing (for trucks) and wheelies (for motorbikes).
 
-[Watch the Walkthrough Video](#) <!-- Replace this link with the actual video link -->
-
+[Watch the Walkthrough Video](https://drive.google.com/file/d/1RoDQNm4x3ORTkkDuo61bjXllBK2J58Jl/view) 
 ## Technologies Used
 
 - **TypeScript**: For building a strongly-typed command-line application.
